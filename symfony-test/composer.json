@@ -1,0 +1,26 @@
+{
+    "name": "instana/test-symfony5",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Cedric Ziel",
+            "email": "cedric.ziel@instana.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "symfony/config": "^5.0",
+        "symfony/http-kernel": "^5.0",
+        "symfony/http-foundation": "^5.0",
+        "symfony/routing": "^5.0",
+        "symfony/dependency-injection": "^5.0",
+        "symfony/framework-bundle": "^5.0",
+        "symfony/monolog-bundle": "^3.5",
+        "symfony/twig-bundle": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
